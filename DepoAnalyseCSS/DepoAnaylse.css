@@ -1,0 +1,69 @@
+body {
+  background-color: rgba(11, 12, 16);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.depo_eintrag_div {
+  width: 330px;
+  height: 220px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+
+  background-color: rgba(12, 17, 23);
+
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.input_felder_für_eintrag {
+  color-scheme: dark;
+
+  width: 200px;
+  height: 40px;
+
+  background-color: rgba(16, 23, 31);
+
+  border-radius: 10px;
+  border: none;
+
+  text-align: center;
+}
+
+.Depo_Eintrag_Input_felder_div {
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.aktualisieren_button_für_den_depo_stand {
+  width: 200px;
+  height: 40px;
+
+  background-color: rgba(36, 122, 240);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+
+  border-radius: 10px;
+  border: none;
+
+  text-align: center;
+}
+
+.aktualisieren_button_für_den_depo_stand_div {
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

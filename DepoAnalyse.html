@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DepoAnalyse</title>
+
+    <link rel="stylesheet" href="DepoAnalyseCSS/DepoAnaylse.css" />
+  </head>
+  <body>
+    <!-- Überschrift -->
+    <h1>DepoAnalyse</h1>
+
+    <!-- Verschidene Analyse abscnitte für das Depot. -->
+    <div class="depo_eintrag_div">
+      <h3>Aktueller Depo stand</h3>
+      <div class="Depo_Eintrag_Input_felder_div">
+        <p>Betrag:</p>
+        <input
+          type="text"
+          class="input_felder_für_eintrag"
+          placeholder="Gebe einen Betrag ein"
+        />
+      </div>
+      <div class="Depo_Eintrag_Input_felder_div">
+        <p>Datum:</p>
+        <input
+          type="date"
+          id="datumFeldFürEintrag"
+          class="input_felder_für_eintrag"
+        />
+      </div>
+      <div class="aktualisieren_button_für_den_depo_stand_div">
+        <button class="aktualisieren_button_für_den_depo_stand">Aktualisieren</button>
+      </div>
+    </div>
+
+    <script src="DepoAnalyseJS/DepoAnalyse.js"></script>
+  </body>
+</html>
