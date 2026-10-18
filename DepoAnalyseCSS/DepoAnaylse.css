@@ -115,7 +115,7 @@ body {
 
 .meilenstein_planer_div {
   width: 330px;
-  height: 210px;
+  height: 460px;
 
   display: flex;
   flex-direction: column;
@@ -168,13 +168,13 @@ body {
   text-align: center;
 }
 
-.meilensteinplaner_button_div{
+.meilensteinplaner_button_div {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
-.meilensteinplaber_bestätigungs_button{
+.meilensteinplaber_bestätigungs_button {
   width: 200px;
   height: 40px;
 
@@ -197,4 +197,23 @@ body {
 .input_felder_für_eintrag:hover {
   cursor: pointer;
   filter: brightness(1.1);
+}
+
+.meilensteinplaner_tagesplan_abschnitt_beschreibungs_p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 5px;
+}
+
+.meilenscteinplaner_tagesplan_einträge_div_div {
+  height: 140px;
+  width: 100%;
+
+  background-color: rgb(255, 255, 255);
+
+  border-radius: 10px;
+
+  overflow-y: auto;
 }
